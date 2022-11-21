@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 
 import { Icons } from '../Icons';
 
-export const Panel = ({ title, text, image, link, service, tech, cursorLink }) => {
+export const Panel = ({ title, text, image, link, service, stack, cursorLink }) => {
     return (
         <div className={cx('reveal', styles.container)}>
             <div className={styles.itemOne}>
@@ -29,10 +29,10 @@ export const Panel = ({ title, text, image, link, service, tech, cursorLink }) =
                             </p>
                         ))}
                     </div>
-                    <div className={styles.techlist}>
-                        <label>Tech Stack:</label>
+                    <div className={styles.stacklist}>
+                        <label>Stack:</label>
                         <ul>
-                            {tech.map((t, i) => (
+                            {stack.map((t, i) => (
                                 <li key={i}>
                                     <Icons icon={t} size={24} color={'#eaeaea'} />
                                 </li>

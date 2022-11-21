@@ -69,11 +69,11 @@
     text-align: center;
 }
 
-.techlist {
+.stacklist {
     margin-top: var(--spacing-2);
 }
 
-.techlist ul li {
+.stacklist ul li {
     display: inline;
 }
 
