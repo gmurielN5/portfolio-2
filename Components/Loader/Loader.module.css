@@ -1,0 +1,57 @@
+/* Loader component */
+
+.absolute {
+    position: fixed;
+    background-color: red;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.loaderWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.loader {
+    position: relative;
+    z-index: 100;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+ul.transition {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    pointer-events: none;
+}
+
+ul.transition li {
+    transform: scaleY(1);
+    background: var(--darkBlue);
+    height: 50%;
+}

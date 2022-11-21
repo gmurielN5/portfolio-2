@@ -1,0 +1,101 @@
+.footer {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0 var(--spacing-4);
+}
+
+.text {
+    padding: 0 var(--spacing-4);
+    overflow: hidden;
+}
+
+.text p {
+    text-transform: uppercase;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: var(--spacing-3);
+}
+
+.form input[type='text']:focus,
+.form input[type='email']:focus,
+.form textarea:focus {
+    background: var(--white);
+    color: var(--darkBlue);
+}
+
+.form input[type='text'],
+.form input[type='email'],
+.form textarea {
+    color: var(--white);
+    background: transparent;
+    border: var(--border);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: var(--spacing-2);
+    outline: none;
+}
+
+.form input[type='text'],
+.form input[type='email'] {
+    width: 100%;
+    height: 42px;
+}
+.form textarea {
+    width: 100%;
+    height: 250px;
+    resize: none;
+}
+.button {
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    bottom: 0;
+    height: 10rem;
+    width: 10rem;
+    font-family: var(--font-header);
+    font-size: var(--label-size);
+    color: var(--darkBlue);
+    background: var(--white);
+    border: none;
+    border-radius: var(--radius);
+    padding: var(--spacing-1);
+    cursor: pointer;
+    transition: all 1s;
+    margin-right: var(--spacing-2);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 992px) {
+    .footer {
+        flex-direction: row;
+    }
+    .grid {
+        flex-direction: row;
+    }
+    .message {
+        transform: rotate(-90deg);
+    }
+}
