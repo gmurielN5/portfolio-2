@@ -11,7 +11,7 @@ export const About = () => {
     return (
         <div className={styles.section} id="sectionOne" data-scroll-section>
             <div className={styles.header}>
-                <h2 className={cx('title', styles.title)}>A FullStack</h2>
+                <h2 className={cx('title', styles.title)}>Front-End</h2>
                 <h3 className="subtitle">Developer</h3>
             </div>
 
