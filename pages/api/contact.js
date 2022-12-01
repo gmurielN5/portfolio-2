@@ -16,7 +16,6 @@ const handler = async (req, res) => {
                 .status(200)
                 .send({ message: { msgBody: 'Thanks for your message', msgError: false } });
         } catch (error) {
-            console.log(error);
             return res.status(400).send({
                 message: { msgBody: error.message, msgError: true }
             });
