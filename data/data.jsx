@@ -7,7 +7,7 @@ export const data = [
         ],
         stack: ['NodeJs', 'ExpressJs', 'MongoDb', 'React', 'Bootstrap', 'Heroku'],
         image: '/images/voice.jpg',
-        link: 'https://mg-voice.herokuapp.com/'
+        link: 'https://github.com/gmurielN5/MERN-App'
     },
     {
         title: 'Chat App',
