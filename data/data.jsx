@@ -50,7 +50,7 @@ export const data = [
         stack: ['Shopify', 'Photoshop', 'Illustrator', 'AdobeXD', 'Html', 'Css'],
 
         image: '/images/eshvi.jpg',
-        link: 'https://eshvijewellery.com'
+        link: 'https://www.eshvi.co.uk/'
     },
     {
         title: 'Gisele Ganne',
