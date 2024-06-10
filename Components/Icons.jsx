@@ -1,24 +1,29 @@
 import { IconContext } from 'react-icons';
 import {
-    SiHtml5,
-    SiCss3,
     SiJavascript,
+    SiTypescript,
     SiExpress,
+    SiReact,
     SiSocketdotio,
+    SiWebrtc,
     SiRedis,
     SiDocker,
+    SiRedux,
+    SiAmazonaws,
     SiMongodb,
-    SiHeroku,
-    SiReact,
+    SiFirebase,
     SiBootstrap,
+    SiStyledcomponents,
+    SiTailwindcss,
     SiShopify,
     SiThreedotjs,
     SiAdobephotoshop,
     SiAdobeillustrator,
     SiAdobexd,
-    SiGithub
+    SiGithub,
+    SiPwa
 } from 'react-icons/si';
-import { FaNode, FaWordpress } from 'react-icons/fa';
+import { FaNode, FaStripe } from 'react-icons/fa';
 
 export const Icons = ({ icon, size, color }) => {
     return (
@@ -31,36 +36,44 @@ export const Icons = ({ icon, size, color }) => {
             }}>
             {(() => {
                 switch (icon) {
-                    case 'Html':
-                        return <SiHtml5 />;
-                    case 'Css':
-                        return <SiCss3 />;
                     case 'Javascript':
                         return <SiJavascript />;
+                    case 'Typescript':
+                        return <SiTypescript />;
                     case 'NodeJs':
                         return <FaNode />;
                     case 'ExpressJs':
                         return <SiExpress />;
+                    case 'React':
+                        return <SiReact />;
                     case 'SocketIo':
                         return <SiSocketdotio />;
+                    case 'Webrtc':
+                        return <SiWebrtc />;
                     case 'Redis':
                         return <SiRedis />;
                     case 'Docker':
                         return <SiDocker />;
+                    case 'Aws':
+                        return <SiAmazonaws />;
+                    case 'Redux':
+                        return <SiRedux />;
                     case 'MongoDb':
                         return <SiMongodb />;
-                    case 'Heroku':
-                        return <SiHeroku />;
-                    case 'React':
-                        return <SiReact />;
+                    case 'Firebase':
+                        return <SiFirebase />;
                     case 'Bootstrap':
                         return <SiBootstrap />;
-                    case 'Shopify':
-                        return <SiShopify />;
-                    case 'Wordpress':
-                        return <FaWordpress />;
+                    case 'StyledComponent':
+                        return <SiStyledcomponents />;
+                    case 'Tailwind':
+                        return <SiTailwindcss />;
                     case 'ThreeJs':
                         return <SiThreedotjs />;
+                    case 'Shopify':
+                        return <SiShopify />;
+                    case 'Stripe':
+                        return <FaStripe />;
                     case 'Photoshop':
                         return <SiAdobephotoshop />;
                     case 'Illustrator':
@@ -69,6 +82,8 @@ export const Icons = ({ icon, size, color }) => {
                         return <SiAdobexd />;
                     case 'Github':
                         return <SiGithub />;
+                    case 'Pwa':
+                        return <SiPwa />;
                     default:
                         return null;
                 }

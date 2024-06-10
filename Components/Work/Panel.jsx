@@ -9,7 +9,7 @@ export const Panel = ({ title, text, image, link, service, stack, cursorLink }) 
     return (
         <div className={cx('reveal', styles.container)}>
             <div className={styles.itemOne}>
-                <h4 className={styles.itemTitle}>{title}</h4>
+                <h4>{title}</h4>
             </div>
             <div className={styles.itemTwo}>
                 <div className={styles.services}>
@@ -22,19 +22,29 @@ export const Panel = ({ title, text, image, link, service, stack, cursorLink }) 
                     </ul>
                 </div>
                 <div className={styles.text}>
-                    <div className={styles.textlist}>
+                    <div>
                         {text.map((item) => (
                             <p key={item.toString()}>
                                 <span>{item}</span>
                             </p>
                         ))}
                     </div>
+                    {/* <div className={styles.linkRepo}>
+                        <p className={styles.smallHeading}>Link to repo:</p>
+                        <a
+                            href="https://www.w3schools.com"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <Icons icon="Github" size={30} color={'#eaeaea'} />
+                            github link
+                        </a>
+                    </div> */}
                     <div className={styles.stacklist}>
-                        <label>Stack:</label>
+                        <p className={styles.smallHeading}>Stack:</p>
                         <ul>
                             {stack.map((t, i) => (
                                 <li key={i}>
-                                    <Icons icon={t} size={24} color={'#eaeaea'} />
+                                    <Icons icon={t} size={30} color={'#6d7787'} />
                                 </li>
                             ))}
                         </ul>

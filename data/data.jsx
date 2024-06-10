@@ -1,21 +1,42 @@
 export const data = [
     {
-        title: 'Voice',
-        service: ['Front-End development', 'Back-End development'],
+        title: 'Hub',
+        service: ['Front-End', 'Back-End'],
         text: [
-            `Built a MERN application using React latest hooks and context on the Front-end. RESTful API and an user authentication with Node.js, Express.js, MongoDB on the Back-end.`
+            'A real-time communication platform leveraging WebRTC and Socket.IO to provide video, audio and chat communication.'
         ],
-        stack: ['NodeJs', 'ExpressJs', 'MongoDb', 'React', 'Bootstrap', 'Heroku'],
+        stack: ['Webrtc', 'SocketIo', 'React', 'Aws', 'Tailwind'],
+        image: '',
+        link: 'https://www.mgan.xyz/dashboard'
+    },
+    {
+        title: 'Ecommerce',
+        service: ['Front-End'],
+        text: [
+            'E-commerce platform, built with React, Redux, TypeScript, Firebase for authentication, and styled-components for CSS.'
+        ],
+        stack: ['Typescript', 'React', 'Redux', 'Firebase', 'Stripe', 'StyledComponent', 'Pwa'],
+        image: '/images/giseleganne.jpg',
+        link: 'https://gisele-shop.netlify.app'
+    },
+    {
+        title: 'Voice',
+        service: ['Front-End', 'Back-End'],
+        text: [
+            `MERN application using React latest hooks and context on the Front-end, RESTful API and user authentication with Node.js, Express.js, MongoDB on the Back-end.`
+        ],
+        stack: ['NodeJs', 'ExpressJs', 'MongoDb', 'React', 'Bootstrap'],
         image: '/images/voice.jpg',
-        link: 'https://github.com/gmurielN5/MERN-App'
+        githubLink: 'https://github.com/gmurielN5/MERN-App',
+        link: 'https://mern-app-front-end.onrender.com'
     },
     {
         title: 'Chat App',
-        service: ['Front-End development', 'Back-End development'],
+        service: ['Front-End', 'Back-End'],
         text: [
             'A web-based messaging application that delivers messages instantaneously. Built with React, Socket.io, Node.js and Redis.'
         ],
-        stack: ['React', 'SocketIo', 'NodeJs', 'Redis', 'Docker'],
+        stack: ['NodeJs', 'SocketIo', 'Redis', 'Docker', 'React'],
         image: '/images/socketio.jpg',
         link: 'https://github.com/gmurielN5/chatBot'
     },
@@ -47,17 +68,17 @@ export const data = [
             'Brand identity'
         ],
         text: ['Prototyped and designed e-commerce website with Shopify CMS'],
-        stack: ['Shopify', 'Photoshop', 'Illustrator', 'AdobeXD', 'Html', 'Css'],
+        stack: ['Shopify', 'Photoshop', 'Illustrator', 'AdobeXD'],
 
         image: '/images/eshvi.jpg',
         link: 'https://www.eshvi.co.uk/'
-    },
-    {
-        title: 'Gisele Ganne',
-        service: ['Prototyping', 'Web Development', 'Print&Digital design'],
-        text: ['Prototyped and designed e-commerce website under Wordpress environment'],
-        stack: ['Wordpress', 'Photoshop', 'AdobeXD', 'Html', 'Css'],
-        image: '/images/giseleganne.jpg',
-        link: 'http://giseleganne.com/'
     }
+    // {
+    //     title: 'Gisele Ganne',
+    //     service: ['Prototyping', 'Web Development', 'Print&Digital design'],
+    //     text: ['Prototyped and designed e-commerce website under Wordpress environment'],
+    //     stack: ['Wordpress', 'Photoshop', 'AdobeXD', 'Html', 'Css'],
+    //     image: '/images/giseleganne.jpg',
+    //     link: 'http://giseleganne.com/'
+    // }
 ];

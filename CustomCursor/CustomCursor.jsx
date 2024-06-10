@@ -90,9 +90,9 @@ export const CustomCursor = () => {
                         className={styles.text}
                         fill="none"
                         textLength="900"
-                        stroke="#455e87"
-                        strokeWidth={4}
-                        fontSize="80">
+                        stroke="#1e293b"
+                        strokeWidth={6}
+                        fontSize="72">
                         <textPath href="#textcircle">View Project View Project</textPath>
                     </text>
                 </svg>
