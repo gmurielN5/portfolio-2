@@ -47,7 +47,7 @@
     column-gap: var(--spacing-2);
     padding:var(--spacing-4);
     border-radius:var(--radius-lg);
-    background-color: var(--darkBlue);
+    background-color: var(--blue);
     color:var(--white);
     box-shadow: var(--box-shadow);
 }
@@ -77,7 +77,7 @@
   font-family: var(--font-header);
   font-size: var(--label-size);
   line-height: 3rem;
-  /* color:var(--lightgray); */
+  margin-top: var(--spacing-2);
 }
 
 .stacklist ul li {
