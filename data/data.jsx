@@ -6,7 +6,7 @@ export const data = [
             'A real-time communication platform leveraging WebRTC and Socket.IO to provide video, audio and chat communication.'
         ],
         stack: ['Webrtc', 'SocketIo', 'React', 'Aws', 'Tailwind'],
-        image: '/hub/giseleganne.jpg',
+        image: '/images/hub.jpg',
         link: 'https://www.mgan.xyz/dashboard'
     },
     {
