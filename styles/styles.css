@@ -118,16 +118,6 @@ p {
     letter-spacing: var(--p-ls);
 }
 
-/* a{
-    text-decoration: none;
-    color: var(--blue);
-    font-size: var(--p-size);
-    cursor: pointer;
-}
-a:hover{
-  color:red;
-} */
-
 label {
     font-family: var(--font-header);
     font-size: var(--label-size);

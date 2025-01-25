@@ -47,7 +47,7 @@
     column-gap: var(--spacing-2);
     padding:var(--spacing-4);
     border-radius:var(--radius-lg);
-    background-color: var(--blue);
+    background-color: var(--darkBlue);
     color:var(--white);
     box-shadow: var(--box-shadow);
 }

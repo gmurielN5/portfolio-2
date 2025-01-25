@@ -71,8 +71,8 @@ export const CustomCursor = () => {
                 <svg
                     className="cursor"
                     ref={ref}
-                    width={100}
-                    height={100}
+                    width={150}
+                    height={150}
                     viewBox="0 0 500 500"
                     style={{
                         position: 'absolute',
@@ -86,14 +86,8 @@ export const CustomCursor = () => {
                  a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
                         />
                     </defs>
-                    <text
-                        className={styles.text}
-                        fill="none"
-                        textLength="900"
-                        stroke="#1e293b"
-                        strokeWidth={6}
-                        fontSize="72">
-                        <textPath href="#textcircle">View Project View Project</textPath>
+                    <text className={styles.text} textLength="900" stroke="#020209" fontSize="64">
+                        <textPath href="#textcircle">View Project . View Project .</textPath>
                     </text>
                 </svg>
             ) : (
