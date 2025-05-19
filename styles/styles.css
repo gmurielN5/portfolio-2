@@ -37,7 +37,7 @@
     --h1-size: 11rem;
     --h2-size: 7.5vw;
     --h2-ls: 1rem;
-    --h3-size: 10vw;
+    --h3-size: 8vw;
     --h4-size: 6vw;
     --p-size: 1.4rem;
     --h-lh: 1.5;
@@ -117,16 +117,6 @@ p {
     line-height: var(--p-lh);
     letter-spacing: var(--p-ls);
 }
-
-/* a{
-    text-decoration: none;
-    color: var(--blue);
-    font-size: var(--p-size);
-    cursor: pointer;
-}
-a:hover{
-  color:red;
-} */
 
 label {
     font-family: var(--font-header);

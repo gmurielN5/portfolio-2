@@ -29,8 +29,18 @@ export const Panel = ({ title, text, image, link, service, stack, cursorLink }) 
                             </p>
                         ))}
                     </div>
-                    {/* <div className={styles.linkRepo}>
-                        <p className={styles.smallHeading}>Link to repo:</p>
+                    <div className={styles.stacklist}>
+                        <p className={styles.smallHeading}>Stack</p>
+                        <ul>
+                            {stack.map((t, i) => (
+                                <li key={i}>
+                                    <Icons icon={t} size={30} color={'#eaeaea'} />
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    <div>
+                        <p className={styles.smallHeading}>Link to repo</p>
                         <a
                             href="https://www.w3schools.com"
                             target="_blank"
@@ -38,16 +48,6 @@ export const Panel = ({ title, text, image, link, service, stack, cursorLink }) 
                             <Icons icon="Github" size={30} color={'#eaeaea'} />
                             github link
                         </a>
-                    </div> */}
-                    <div className={styles.stacklist}>
-                        <p className={styles.smallHeading}>Stack:</p>
-                        <ul>
-                            {stack.map((t, i) => (
-                                <li key={i}>
-                                    <Icons icon={t} size={30} color={'#6d7787'} />
-                                </li>
-                            ))}
-                        </ul>
                     </div>
                 </div>
             </div>

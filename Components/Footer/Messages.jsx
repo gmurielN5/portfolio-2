@@ -13,16 +13,10 @@ export const Message = ({ message }) => {
             ) : (
                 <div className="message">
                     <div className={styles.heading}>
-                        <h3>Hire</h3>
+                        <h3>Contact</h3>
                         <h4>me</h4>
                     </div>
                     <div className={styles.text}>
-                        <p>
-                            <span>Available for work</span>
-                        </p>
-                        <p>
-                            <span>{moment().format('MMM YYYY')}</span>
-                        </p>
                         <p>
                             <a
                                 href="https://github.com/gmurielN5"

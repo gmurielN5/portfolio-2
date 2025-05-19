@@ -10,16 +10,18 @@ const text =
 export const About = () => {
     return (
         <div className={styles.section} id="sectionOne" data-scroll-section>
-            <div className={styles.header}>
-                <h2 className={cx('title', styles.title)}>Full Stack</h2>
-                <h3 className="subtitle">Developer</h3>
-            </div>
-            <div>
-                {text.split('\n').map((item, i) => (
-                    <div className={styles.lines} key={i}>
-                        <p className="text">{item}</p>
-                    </div>
-                ))}
+            <div className={styles.container}>
+                <div className={styles.header}>
+                    <h2 className={cx('title', styles.title)}>Full Stack</h2>
+                    <h3 className="subtitle">Developer</h3>
+                </div>
+                <div>
+                    {text.split('\n').map((item, i) => (
+                        <div className={styles.lines} key={i}>
+                            <p className="text">{item}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );
